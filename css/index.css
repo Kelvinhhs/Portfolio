@@ -1,0 +1,90 @@
+.container-fluid{
+    padding: 3% 8%
+}
+
+.navbar{
+    padding: 0 0 rem;
+}
+
+.navbar-brand{
+    font-family: 'Yeseva One';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Sora', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+
+.top{
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+}
+
+
+#About{
+    background-color: rgb(50, 50, 50);
+}
+
+.about-wk{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.about-body{
+    padding: 3% 6%
+}
+
+h1{
+    font-family: 'Yeseva One';
+    color: #8f8f8f;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'Yeseva One';
+    color: #000000;
+    font-size: 3rem;
+    position: relative;
+}
+
+h2::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h2:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  h2::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #c890e5;
+    z-index: -1;
+    transition: transform .5s ease;
+  }
+
+p{
+    font-family: 'Sora';
+    color: #8f8f8f;
+    font-size: 1.5rem;
+}
+
+#Resume{
+    margin: 3% 0 ;
+    text-align: center;
+}
